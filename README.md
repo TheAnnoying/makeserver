@@ -45,3 +45,6 @@ wrangler.cmd pages dev .
 ```
 Live on [http://localhost:8788](http://localhost:8788)
 </details>
+<br>
+
+Thanks [Ewan Howell](https://ewanhowell.com) for the help with the Discord-like components.
