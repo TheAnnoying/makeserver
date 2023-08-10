@@ -1,7 +1,7 @@
 const newRequest = async ({ request }) => {
     let response;
 
-    const token = "MTEwNjkxNDY2NTM2MTA1NTkxNA.GOOqFp.7wUkbP49bDqOSTpt4CHVWclPdEU0ZBc_FSFPVY";
+    const token = process.env.DISCORD_TOKEN;
     const headers = {
         "Content-Type": "application/json",
         Authorization: `Bot ${token}`
